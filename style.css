@@ -1,0 +1,23 @@
+.rectangulo {
+    height: 200px;
+    max-height: 50%;
+    margin: 5px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rectangulo p {
+    font-size: larger;
+    font-weight: 700;
+    opacity: 0.95;
+}
+
+.botonera {
+    display: flex;
+    justify-content: center;
+    color: rgb(325, 325, 325);
+}
+/* #color1 {
+    background-color: red;
+} */
