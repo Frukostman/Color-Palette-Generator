@@ -41,24 +41,24 @@ function darColor() {
     
     
     R1.style = `background-color: rgb(${color1A}, ${color1B}, ${color1C});`;
-    texto1.innerHTML = `<p>RGB (${color1A}, ${color1B}, ${color1C});</p> `;
-    texto1.style = `color: white; opacity: 0.9; font-size: small;`
+    texto1.innerHTML = `<p class="fw-bolder text-center">RGB: <br> (${color1A}, ${color1B}, ${color1C})</p> `;
+    texto1.style = `opacity: 0.9; font-size: small;`
     
     R2.style = `background-color: rgb(${color2A}, ${color2B}, ${color2C});`;
-    texto2.innerHTML = `<p>RGB (${color2A}, ${color2B}, ${color2C});</p> `;
-    texto2.style = `color: white; opacity: 0.9; font-size: small;`
+    texto2.innerHTML = `<p class="fw-bolder text-center">RGB: <br> (${color2A}, ${color2B}, ${color2C})</p> `;
+    texto2.style = `opacity: 0.9; font-size: small;`
 
     R3.style = `background-color: rgb(${color3A}, ${color3B}, ${color3C});`;
-    texto3.innerHTML = `<p>RGB (${color3A}, ${color3B}, ${color3C});</p> `;
-    texto3.style = `color: white; opacity: 0.9; font-size: small;`
+    texto3.innerHTML = `<p class="fw-bolder text-center">RGB: <br> (${color3A}, ${color3B}, ${color3C})</p> `;
+    texto3.style = `opacity: 0.9; font-size: small;`
 
     R4.style = `background-color: rgb(${color4A}, ${color4B}, ${color4C});`;
-    texto4.innerHTML = `<p>RGB (${color4A}, ${color4B}, ${color4C});</p> `;
-    texto4.style = `color: white; opacity: 0.9; font-size: small;`
+    texto4.innerHTML = `<p class="fw-bolder text-center">RGB: <br> (${color4A}, ${color4B}, ${color4C})</p> `;
+    texto4.style = `opacity: 0.9; font-size: small;`
 
     R5.style = `background-color: rgb(${color5A}, ${color5B}, ${color5C});`;
-    texto5.innerHTML = `<p>RGB (${color5A}, ${color5B}, ${color5C});</p> `;
-    texto5.style = `color: white; opacity: 0.9; font-size: small;`
+    texto5.innerHTML = `<p class="fw-bolder text-center">RGB: <br> (${color5A}, ${color5B}, ${color5C})</p> `;
+    texto5.style = `opacity: 0.9; font-size: small;`
 
 
   
