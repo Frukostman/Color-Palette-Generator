@@ -9,20 +9,19 @@ html {
     padding: 0px;
 }
 body {
-    background-color: #f0f0f0; 
+    background-color: #f1f1f1; 
     margin: 0px;
     padding: 0px;
 }
 
 .rectangulo {
-    height: 300px;
-    max-height: 50%;
-    margin: 5px;
+    height: 20vw;
     border: solid 5px white;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .rectangulo p {
     font-size: larger;
@@ -35,6 +34,10 @@ body {
     justify-content: center;
     color: rgb(325, 325, 325);
 }
-/* #color1 {
-    background-color: red;
-} */
+.ocultaBoton {
+    display: none;   
+}
+
+@media only screen and (max-width: 600px) {
+    .listado__ong {
+      display: none; } }
