@@ -1,12 +1,24 @@
+/* Valores Generales */
+
+html {
+    scroll-behavior: smooth;
+}
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
 body {
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; 
+    margin: 0px;
+    padding: 0px;
 }
 
 .rectangulo {
     height: 300px;
     max-height: 50%;
     margin: 5px;
-    border: solid 10px white;
+    border: solid 5px white;
     border-radius: 20px;
     display: flex;
     justify-content: center;
