@@ -21,33 +21,23 @@ function darColor() {
     let color1A = Math.floor(Math.random()*256)
     let color1B = Math.floor(Math.random()*256)
     let color1C = Math.floor(Math.random()*256)
-    console.log(color1A)
-    console.log(color1B)
-    console.log(color1C)
+    
     let color2A = Math.floor(Math.random()*256)
     let color2B = Math.floor(Math.random()*256)
     let color2C = Math.floor(Math.random()*256)
-    console.log(color2A)
-    console.log(color2B)
-    console.log(color2C)
+    
     let color3A = Math.floor(Math.random()*256)
     let color3B = Math.floor(Math.random()*256)
     let color3C = Math.floor(Math.random()*256)
-    console.log(color3A)
-    console.log(color3B)
-    console.log(color3C)
+    
     let color4A = Math.floor(Math.random()*256)
     let color4B = Math.floor(Math.random()*256)
     let color4C = Math.floor(Math.random()*256)
-    console.log(color4A)
-    console.log(color4B)
-    console.log(color4C)
+    
     let color5A = Math.floor(Math.random()*256)
     let color5B = Math.floor(Math.random()*256)
     let color5C = Math.floor(Math.random()*256)
-    console.log(color5A)
-    console.log(color5B)
-    console.log(color5C)
+    
     
     
     R1.style = `background-color: rgb(${color1A}, ${color1B}, ${color1C});`;
