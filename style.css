@@ -2,11 +2,15 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: #f1f1f1; 
 }
 * {
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
     margin: 0px;
     padding: 0px;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
     background-color: #f1f1f1; 
@@ -24,10 +28,9 @@ body {
     width: 100%;
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
 }
-.color :hover {
+.color .rectangulo :hover {
     transition: 0.2s ease;
     transform: scale(1.05);
-
 }
 
 .rectangulo p {
@@ -45,6 +48,14 @@ body {
     display: none;   
 }
 
+.candado {
+    opacity: 0.5;
+    position: fixed;
+    top: -42%;
+    right: -10%;
+}
+
+/* 
 @media only screen and (max-width: 600px) {
     .listado__ong {
-      display: none; } }
+      display: none; } } */

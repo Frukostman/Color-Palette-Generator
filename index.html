@@ -8,14 +8,14 @@
 
 
     <!-- FONTAWESOME -->
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
     <!-- ANIMATE -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <!-- BOOTSTRAPP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+
+    <!-- BULMA -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
     <!-- STYLE PROPIO -->
     <link rel="stylesheet" href="style.css">
 
@@ -26,70 +26,68 @@
 </head>
 <body>
 
-    <h1 class="text-center m-5 display-3">COLOR PALETTE</h1>
+    <h1 class="title is-1 has-text-centered my-5">Color Palette</h1>
 
     <main>
-        <div class="container">
-            <div class="row d-flex justify-content-around">
-                <div class="col-sm-12 col-md-2 color">
+        <div class="container is-widescreen">
+            <div class="columns d-flex justify-content-around">
+                <div class="column is-one-fifth color">
                     <div id="color1" class="rectangulo">
-                        <p id="textoColor1">COLOR 1</p>
+                        <p class="subtitle is-5" id="textoColor1">COLOR 1</p>
+                        <!-- <i class="fas fa-lock candado"></i>                   -->
                     </div>
-                    <div class="d-grid px-2 pt-4">
-                        <button type="button" onclick="darColor(R1,T1);" class="btn btn-outline-secondary btn-sm refresh ocultaBoton">
+                    <div class=" is-flex is-justify-content-center px-2 pt-4">
+                        <button type="button" onclick="darColor(R1,T1);" class="button is-small is-info is-light is-outlined refresh ocultaBoton">
                             Refresh <i class="fas fa-redo"></i>
-                        </button>                        
+                        </button>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-2 color">
+                <div class="column is-one-fifth color">
                     <div id="color2" class="rectangulo">
-                        <p id="textoColor2">COLOR 2</p>
+                        <p class="subtitle is-5" id="textoColor2">COLOR 2</p>
                     </div>
-                    <div class="d-grid px-2 pt-4">
-                        <button type="button" onclick="darColor(R2,T2);" class="btn btn-outline-secondary btn-sm refresh ocultaBoton">
+                    <div class=" is-flex is-justify-content-center px-2 pt-4">
+                        <button type="button" onclick="darColor(R2,T2);" class="button is-small is-info is-light is-outlined refresh ocultaBoton">
                             Refresh <i class="fas fa-redo"></i>
                         </button>                        
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-2 color">
+                <div class="column is-one-fifth color">
                     <div id="color3" class="rectangulo">
-                        <p id="textoColor3">COLOR 3</p>
+                        <p class="subtitle is-5" id="textoColor3">COLOR 3</p>
                     </div>
-                    <div class="d-grid px-2 pt-4">
-                        <button type="button" onclick="darColor(R3,T3);" class="btn btn-outline-secondary btn-sm refresh ocultaBoton">
+                    <div class=" is-flex is-justify-content-center px-2 pt-4">
+                        <button type="button" onclick="darColor(R3,T3);" class="button is-small is-info is-light is-outlined refresh ocultaBoton">
                             Refresh <i class="fas fa-redo"></i>
                         </button>                        
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-2 color">
+                <div class="column is-one-fifth color">
                     <div id="color4" class="rectangulo">
-                        <p id="textoColor4">COLOR 4</p>
+                        <p class="subtitle is-5" id="textoColor4">COLOR 4</p>
                     </div>
-                    <div class="d-grid px-2 pt-4">
-                        <button type="button" onclick="darColor(R4,T4);" class="btn btn-outline-secondary btn-sm refresh ocultaBoton">
+                    <div class=" is-flex is-justify-content-center px-2 pt-4">
+                        <button type="button" onclick="darColor(R4,T4);" class="button is-small is-info is-light is-outlined refresh ocultaBoton">
                             Refresh <i class="fas fa-redo"></i>
                         </button>                        
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-2 color">
+                <div class="column is-one-fifth color">
                     <div id="color5" class="rectangulo">
-                        <p id="textoColor5">COLOR 5</p>
+                        <p class="subtitle is-5" id="textoColor5">COLOR 5</p>
                     </div>
-                    <div class="d-grid px-2 pt-4">
-                        <button type="button" onclick="darColor(R5,T5);" class="btn btn-outline-secondary btn-sm refresh ocultaBoton">
+                    <div class=" is-flex is-justify-content-center px-2 pt-4">
+                        <button type="button" onclick="darColor(R5,T5);" class="button is-small is-info is-light is-outlined refresh ocultaBoton">
                             Refresh <i class="fas fa-redo"></i>
                         </button>                        
                     </div>
                 </div>
             </div>
         </div>
-        <div class="botonera mt-3">
-            <button onclick="darColorTodos()" class="btn btn-outline-success m-2">
+        <div class="botonera mt-5">
+            <button onclick="darColorTodos()" class="button is-primary">
                 GENERATE RANDOM PALETTE
             </button>
-            <!-- <button onclick="darColor()" class="btn btn-success m-2">
-                Generate 
-            </button> -->
         </div>
     </main>
     
