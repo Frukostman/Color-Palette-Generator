@@ -1,19 +1,14 @@
-//Rectangulos color
-
 const R1 = document.querySelector("#color1");
 const R2 = document.querySelector("#color2");
 const R3 = document.querySelector("#color3");
 const R4 = document.querySelector("#color4");
 const R5 = document.querySelector("#color5");
 
-//Textos con codigos
-
 const T1 = document.querySelector("#textoColor1")
 const T2 = document.querySelector("#textoColor2")
 const T3 = document.querySelector("#textoColor3")
 const T4 = document.querySelector("#textoColor4")
 const T5 = document.querySelector("#textoColor5")
-
 
 function darColor(rectangulo, texto) {
 
